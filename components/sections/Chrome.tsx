@@ -31,7 +31,8 @@ export default function Chrome() {
               alt="Klero Généalogie"
               width={1036}
               height={324}
-              priority
+              fetchPriority="high"
+              loading="eager"
               className="h-11 w-auto kl:h-[52px]"
               style={{ filter: 'brightness(0)' }}
             />
