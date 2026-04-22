@@ -24,7 +24,7 @@ export default function Chrome() {
       }}
     >
       <div className="mx-auto max-w-[1800px] px-5 kl:px-8">
-        <div className="flex h-24 items-center justify-between kl:h-28">
+        <div className="flex h-[76px] items-center justify-between kl:h-[90px]">
           <a href="#top" className="flex items-center gap-4" aria-label="Klero Généalogie — accueil">
             <Image
               src="/images/klero-logo.png"
@@ -32,8 +32,8 @@ export default function Chrome() {
               width={1536}
               height={1024}
               priority
-              className="h-16 w-auto kl:h-20"
-              style={{ filter: 'brightness(0)' }}
+              className="h-[60px] w-[140px] kl:h-[72px] kl:w-[170px]"
+              style={{ filter: 'brightness(0)', objectFit: 'fill' }}
             />
             <span className="hidden kl:inline-block ml-1 border-l border-rule pl-4 text-[10px] uppercase tracking-[0.25em] text-ink-muted">
               Est. 1984
