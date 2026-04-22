@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import { useState } from 'react'
 
 const NAV_LINKS = [
@@ -22,15 +21,13 @@ export default function Chrome() {
       <div className="mx-auto max-w-[1800px] px-5 kl:px-8">
         <div className="flex h-14 items-center justify-between kl:h-16">
           <a href="#top" className="flex items-center gap-3" aria-label="Klero Généalogie — accueil">
-            <Image
-              src="/images/klero-logo.png"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/klero-logo.svg"
               alt="Klero Généalogie"
               width={1036}
               height={324}
-              loading="eager"
-              sizes="170px"
               className="h-11 w-auto kl:h-[52px]"
-              style={{ filter: 'brightness(0)' }}
             />
             <span className="hidden kl:inline-block ml-1 border-l border-rule pl-4 text-[10px] uppercase tracking-[0.25em] text-ink-muted">
               Est. 1984
