@@ -24,15 +24,15 @@ export default function Chrome() {
       }}
     >
       <div className="mx-auto max-w-[1800px] px-5 kl:px-8">
-        <div className="flex h-16 items-center justify-between kl:h-[76px]">
-          <a href="#top" className="flex items-center gap-4" aria-label="Klero Généalogie — accueil">
+        <div className="flex h-14 items-center justify-between kl:h-16">
+          <a href="#top" className="flex items-center gap-3" aria-label="Klero Généalogie — accueil">
             <Image
               src="/images/klero-logo.png"
               alt="Klero Généalogie"
               width={1036}
               height={324}
               priority
-              className="h-14 w-auto kl:h-[68px]"
+              className="h-11 w-auto kl:h-[52px]"
               style={{ filter: 'brightness(0)' }}
             />
             <span className="hidden kl:inline-block ml-1 border-l border-rule pl-4 text-[10px] uppercase tracking-[0.25em] text-ink-muted">
