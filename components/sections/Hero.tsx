@@ -18,7 +18,7 @@ export default function Hero() {
 
         <div className="grid grid-cols-1 items-start gap-12 kl:grid-cols-2 kl:items-end kl:gap-20">
           {/* left — copy (above the fold, no Reveal so LCP is instant) */}
-          <div className="order-2 kl:order-1">
+          <div>
             <div className="mb-7 flex items-center gap-[14px] font-mono text-[11px] uppercase tracking-[0.2em] text-accent">
               <span className="block h-px w-8 bg-accent" />
               Généalogie successorale
@@ -60,7 +60,7 @@ export default function Hero() {
           </div>
 
           {/* right — stat card */}
-          <div className="order-1 kl:order-2 relative">
+          <div className="relative">
             <StatCard />
           </div>
         </div>
