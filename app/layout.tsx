@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import { Analytics } from '@vercel/analytics/react'
 import { Cormorant_Garamond, Inter, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 
@@ -63,10 +62,7 @@ export default function RootLayout({
       lang="fr"
       className={`${cormorant.variable} ${inter.variable} ${jetbrains.variable} antialiased`}
     >
-      <body className="font-sans bg-paper text-ink">
-        {children}
-        <Analytics />
-      </body>
+      <body className="font-sans bg-paper text-ink">{children}</body>
     </html>
   )
 }
