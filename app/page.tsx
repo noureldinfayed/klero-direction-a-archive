@@ -8,6 +8,7 @@ import Faq from '@/components/sections/Faq'
 import Contact from '@/components/sections/Contact'
 import FooterCta from '@/components/sections/FooterCta'
 import SiteFooter from '@/components/sections/SiteFooter'
+import RevealRunner from '@/components/ui/RevealRunner'
 
 export default function Page() {
   return (
@@ -24,6 +25,7 @@ export default function Page() {
         <FooterCta />
       </main>
       <SiteFooter />
+      <RevealRunner />
     </>
   )
 }
