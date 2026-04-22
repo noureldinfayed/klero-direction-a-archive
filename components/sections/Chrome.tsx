@@ -17,11 +17,7 @@ export default function Chrome() {
   return (
     <header
       className="sticky top-0 z-40 border-b border-rule"
-      style={{
-        background: 'rgba(244,239,230,.86)',
-        backdropFilter: 'blur(14px) saturate(120%)',
-        WebkitBackdropFilter: 'blur(14px) saturate(120%)',
-      }}
+      style={{ background: 'rgba(244,239,230,.95)' }}
     >
       <div className="mx-auto max-w-[1800px] px-5 kl:px-8">
         <div className="flex h-14 items-center justify-between kl:h-16">
