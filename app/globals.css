@@ -1,20 +1,10 @@
 @import "tailwindcss";
 @config "../tailwind.config.ts";
 
-/* ============================================================
-   RESET
-   ============================================================ */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  -webkit-text-size-adjust: 100%;
-}
+/* Tailwind v4 Preflight already provides the reset — do NOT add a
+   duplicate `* { padding: 0 }` rule here, as it has equal specificity
+   to utility classes and would override every padding/margin utility
+   due to source order. */
 
 html,
 body {
@@ -24,8 +14,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {

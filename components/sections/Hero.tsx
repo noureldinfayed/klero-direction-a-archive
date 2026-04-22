@@ -52,18 +52,18 @@ export default function Hero() {
 
             <Reveal delay={3}>
               <div className="mt-10 flex flex-wrap gap-[14px]">
-                <button
-                  type="button"
-                  className="cursor-pointer border-none bg-accent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-cream transition-colors hover:bg-ink"
+                <a
+                  href="#contact"
+                  className="cursor-pointer border-none bg-accent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-cream no-underline transition-colors hover:bg-ink"
                 >
                   Ouvrir un dossier
-                </button>
-                <button
-                  type="button"
-                  className="cursor-pointer border border-ink bg-transparent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-ink transition-colors hover:bg-ink hover:text-cream"
+                </a>
+                <a
+                  href="#contact"
+                  className="cursor-pointer border border-ink bg-transparent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-ink no-underline transition-colors hover:bg-ink hover:text-cream"
                 >
                   J&apos;ai été contacté →
-                </button>
+                </a>
               </div>
             </Reveal>
           </div>

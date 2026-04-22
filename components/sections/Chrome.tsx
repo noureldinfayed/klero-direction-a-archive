@@ -4,10 +4,11 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 const NAV_LINKS = [
-  { href: '#process', label: 'Notre méthode' },
+  { href: '#process', label: 'Méthode' },
   { href: '#cases', label: 'Dossiers' },
   { href: '#team', label: 'Équipe' },
   { href: '#faq', label: 'FAQ' },
+  { href: '#contact', label: 'Contact' },
 ]
 
 export default function Chrome() {
@@ -49,12 +50,12 @@ export default function Chrome() {
                 {link.label}
               </a>
             ))}
-            <button
-              type="button"
-              className="cursor-pointer rounded-[2px] border-none bg-ink px-[18px] py-[10px] text-[13px] uppercase tracking-[0.06em] text-cream transition-colors hover:bg-accent"
+            <a
+              href="#contact"
+              className="cursor-pointer rounded-[2px] bg-ink px-[18px] py-[10px] text-[13px] uppercase tracking-[0.06em] text-cream no-underline transition-colors hover:bg-accent"
             >
               Nous contacter
-            </button>
+            </a>
           </nav>
 
           <button
@@ -92,13 +93,13 @@ export default function Chrome() {
                 {link.label}
               </a>
             ))}
-            <button
-              type="button"
+            <a
+              href="#contact"
               onClick={() => setOpen(false)}
-              className="mt-2 cursor-pointer rounded-[2px] border-none bg-ink px-[18px] py-[12px] text-[13px] uppercase tracking-[0.06em] text-cream transition-colors hover:bg-accent"
+              className="mt-2 cursor-pointer rounded-[2px] bg-ink px-[18px] py-[12px] text-[13px] uppercase tracking-[0.06em] text-cream no-underline transition-colors hover:bg-accent"
             >
               Nous contacter
-            </button>
+            </a>
           </nav>
         )}
       </div>

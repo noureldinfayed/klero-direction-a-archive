@@ -216,12 +216,12 @@ export default function Cases() {
         })}
 
         <div className="mt-12 text-center">
-          <button
-            type="button"
-            className="cursor-pointer border border-ink bg-transparent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-ink transition-colors hover:bg-ink hover:text-cream"
+          <a
+            href="#faq"
+            className="cursor-pointer border border-ink bg-transparent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-ink no-underline transition-colors hover:bg-ink hover:text-cream"
           >
-            Consulter tous les dossiers →
-          </button>
+            Consulter notre FAQ →
+          </a>
         </div>
       </div>
     </section>

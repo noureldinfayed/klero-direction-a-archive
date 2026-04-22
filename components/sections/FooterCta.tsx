@@ -28,12 +28,12 @@ export default function FooterCta() {
         </Reveal>
         <Reveal delay={2}>
           <div className="flex flex-wrap justify-center gap-4">
-            <button
-              type="button"
-              className="cursor-pointer border-none bg-accent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-cream transition-colors hover:bg-ink"
+            <a
+              href="#contact"
+              className="cursor-pointer border-none bg-accent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-cream no-underline transition-colors hover:bg-ink"
             >
               Ouvrir un dossier
-            </button>
+            </a>
             <a
               href="tel:0173711363"
               className="cursor-pointer border border-ink bg-transparent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-ink no-underline transition-colors hover:bg-ink hover:text-cream"
