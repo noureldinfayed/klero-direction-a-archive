@@ -1,4 +1,3 @@
-import Reveal from '@/components/ui/Reveal'
 import StatCard from '@/components/sections/StatCard'
 
 export default function Hero() {
@@ -18,60 +17,52 @@ export default function Hero() {
         </div>
 
         <div className="grid grid-cols-1 items-start gap-12 kl:grid-cols-2 kl:items-end kl:gap-20">
-          {/* left — copy */}
+          {/* left — copy (above the fold, no Reveal so LCP is instant) */}
           <div className="order-2 kl:order-1">
-            <Reveal>
-              <div className="mb-7 flex items-center gap-[14px] font-mono text-[11px] uppercase tracking-[0.2em] text-accent">
-                <span className="block h-px w-8 bg-accent" />
-                Généalogie successorale
-              </div>
-            </Reveal>
+            <div className="mb-7 flex items-center gap-[14px] font-mono text-[11px] uppercase tracking-[0.2em] text-accent">
+              <span className="block h-px w-8 bg-accent" />
+              Généalogie successorale
+            </div>
 
-            <Reveal delay={1}>
-              <h1 className="hero-title">
-                Un héritage<br />
-                <em>vous attend.</em>
-              </h1>
-            </Reveal>
+            <h1 className="hero-title">
+              Un héritage<br />
+              <em>vous attend.</em>
+            </h1>
 
-            <Reveal delay={2}>
-              <p
-                className="mt-8 max-w-[460px] text-ink-soft"
-                style={{
-                  fontFamily: 'var(--font-cormorant), Georgia, serif',
-                  fontStyle: 'italic',
-                  fontSize: 22,
-                  lineHeight: 1.4,
-                  fontWeight: 400,
-                }}
+            <p
+              className="mt-8 max-w-[460px] text-ink-soft"
+              style={{
+                fontFamily: 'var(--font-cormorant), Georgia, serif',
+                fontStyle: 'italic',
+                fontSize: 22,
+                lineHeight: 1.4,
+                fontWeight: 400,
+              }}
+            >
+              Depuis quarante ans, nous retrouvons les successions oubliées des familles françaises —
+              avec la rigueur du notariat, la patience de l&apos;archiviste.
+            </p>
+
+            <div className="mt-10 flex flex-wrap gap-[14px]">
+              <a
+                href="#contact"
+                className="cursor-pointer border-none bg-accent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-cream no-underline transition-colors hover:bg-ink"
               >
-                Depuis quarante ans, nous retrouvons les successions oubliées des familles françaises —
-                avec la rigueur du notariat, la patience de l&apos;archiviste.
-              </p>
-            </Reveal>
-
-            <Reveal delay={3}>
-              <div className="mt-10 flex flex-wrap gap-[14px]">
-                <a
-                  href="#contact"
-                  className="cursor-pointer border-none bg-accent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-cream no-underline transition-colors hover:bg-ink"
-                >
-                  Ouvrir un dossier
-                </a>
-                <a
-                  href="#contact"
-                  className="cursor-pointer border border-ink bg-transparent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-ink no-underline transition-colors hover:bg-ink hover:text-cream"
-                >
-                  J&apos;ai été contacté →
-                </a>
-              </div>
-            </Reveal>
+                Ouvrir un dossier
+              </a>
+              <a
+                href="#contact"
+                className="cursor-pointer border border-ink bg-transparent px-7 py-[14px] text-[13px] uppercase tracking-[0.06em] text-ink no-underline transition-colors hover:bg-ink hover:text-cream"
+              >
+                J&apos;ai été contacté →
+              </a>
+            </div>
           </div>
 
           {/* right — stat card */}
-          <Reveal delay={2} className="order-1 kl:order-2 relative">
+          <div className="order-1 kl:order-2 relative">
             <StatCard />
-          </Reveal>
+          </div>
         </div>
 
         {/* hero index — desktop only */}
