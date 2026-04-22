@@ -3,7 +3,7 @@ import Reveal from '@/components/ui/Reveal'
 export default function FooterCta() {
   return (
     <section className="relative px-5 py-20 text-center kl:px-0 kl:pb-20 kl:pt-[120px]">
-      <div className="mx-auto max-w-[1280px] kl:px-8">
+      <div className="mx-auto max-w-[1800px] kl:px-8">
         <Reveal>
           <h2 className="footer-cta-big mb-10">
             Votre nom figure

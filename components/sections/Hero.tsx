@@ -4,7 +4,7 @@ import StatCard from '@/components/sections/StatCard'
 export default function Hero() {
   return (
     <section id="top" className="relative overflow-hidden pb-12 pt-6 kl:pb-20 kl:pt-10">
-      <div className="mx-auto max-w-[1280px] px-5 kl:px-8">
+      <div className="mx-auto max-w-[1800px] px-5 kl:px-8">
         {/* meta bar */}
         <div className="mb-12 flex items-center justify-between border-b border-rule pb-[18px] font-mono text-[11px] uppercase tracking-[0.12em] text-ink-muted">
           <div>

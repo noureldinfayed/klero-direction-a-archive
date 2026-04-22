@@ -23,19 +23,19 @@ export default function Chrome() {
         WebkitBackdropFilter: 'blur(14px) saturate(120%)',
       }}
     >
-      <div className="mx-auto max-w-[1280px] px-5 kl:px-8">
-        <div className="flex h-[72px] items-center justify-between">
-          <a href="#top" className="flex items-center gap-3" aria-label="Klero Généalogie — accueil">
+      <div className="mx-auto max-w-[1800px] px-5 kl:px-8">
+        <div className="flex h-24 items-center justify-between kl:h-32">
+          <a href="#top" className="flex items-center gap-4" aria-label="Klero Généalogie — accueil">
             <Image
               src="/images/klero-logo.png"
               alt="Klero Généalogie"
               width={520}
               height={340}
               priority
-              className="h-12 w-auto kl:h-14"
+              className="h-16 w-auto kl:h-24"
               style={{ filter: 'brightness(0)' }}
             />
-            <span className="hidden kl:inline-block ml-1 border-l border-rule pl-3 text-[10px] uppercase tracking-[0.25em] text-ink-muted">
+            <span className="hidden kl:inline-block ml-1 border-l border-rule pl-4 text-[10px] uppercase tracking-[0.25em] text-ink-muted">
               Est. 1984
             </span>
           </a>

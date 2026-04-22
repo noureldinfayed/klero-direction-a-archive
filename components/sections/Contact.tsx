@@ -53,7 +53,7 @@ export default function Contact() {
       id="contact"
       className="border-y border-rule bg-cream py-20 kl:py-[120px]"
     >
-      <div className="mx-auto max-w-[1280px] px-5 kl:px-8">
+      <div className="mx-auto max-w-[1800px] px-5 kl:px-8">
         <div className="mb-10 grid grid-cols-1 items-start gap-4 kl:mb-[72px] kl:grid-cols-[220px_1fr] kl:gap-12">
           <Reveal>
             <div
