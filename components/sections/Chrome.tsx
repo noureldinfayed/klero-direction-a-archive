@@ -27,8 +27,8 @@ export default function Chrome() {
               alt="Klero Généalogie"
               width={1036}
               height={324}
-              fetchPriority="high"
               loading="eager"
+              sizes="170px"
               className="h-11 w-auto kl:h-[52px]"
               style={{ filter: 'brightness(0)' }}
             />
